@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+/*
+* SCROLL BAR
+*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #1f1f1f;
+  }
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: #fff;
+  }
+@import "tailwindcss/utilities";
